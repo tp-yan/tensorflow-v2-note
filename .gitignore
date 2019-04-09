@@ -2,3 +2,8 @@
 201806-github代码数据打包/
 datasets/
 .idea/workspace.xml
+chapter6/model/
+chapter6/6.5_migration_leraning/save_model/
+chapter6/6.5_migration_leraning/train_model/
+chapter6/6.5_migration_leraning/flower_processed_data.npy
+chapter6/6.5_migration_leraning/inception_v3.ckpt
