@@ -1,0 +1,31 @@
+没有使用dropout 且 staircase=True, LEARNING_RATE_BASE = 0.01  # 初始学习率
+After 1 training step(s), loss on training batch is 5.7823.
+After 1001 training step(s), loss on training batch is 0.855095.
+After 2001 training step(s), loss on training batch is 0.691553.
+After 3001 training step(s), loss on training batch is 0.659372.
+After 4001 training step(s), loss on training batch is 0.627797.
+After 5001 training step(s), loss on training batch is 0.659431.
+
+使用dropout
+After 1 training step(s), loss on training batch is 5.09191.
+After 1001 training step(s), loss on training batch is 0.860196.
+After 2001 training step(s), loss on training batch is 0.804208.
+After 3001 training step(s), loss on training batch is 0.782068.
+After 4001 training step(s), loss on training batch is 0.708708.
+After 5001 training step(s), loss on training batch is 0.714159.
+
+没有使用dropout 且 staircase=False
+After 1 training step(s), loss on training batch is 4.28833.
+After 1001 training step(s), loss on training batch is 0.706556.
+After 2001 training step(s), loss on training batch is 0.673415.
+After 3001 training step(s), loss on training batch is 0.685493.
+After 4001 training step(s), loss on training batch is 0.626589.
+After 5001 training step(s), loss on training batch is 0.681118.
+
+没有使用dropout 且 staircase=True, LEARNING_RATE_BASE = 0.8  # 初始学习率
+After 1 training step(s), loss on training batch is 5.27613.
+After 1001 training step(s), loss on training batch is 4.27391.
+After 2001 training step(s), loss on training batch is 3.97855.
+After 3001 training step(s), loss on training batch is 3.73737.
+After 4001 training step(s), loss on training batch is 3.54247.
+After 5001 training step(s), loss on training batch is 3.3738.
