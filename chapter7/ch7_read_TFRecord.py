@@ -1,7 +1,8 @@
 import tensorflow as tf
 
 '''
- 从之前保存的TFRecord中读取数据
+ 从之前保存的TFRecord中读取数据。
+ !!TF中与IO相关的操作不用在计算图中执行!!
 '''
 
 # 创建一个reader来读取TFRecord文件中的样例

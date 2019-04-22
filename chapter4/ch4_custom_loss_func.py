@@ -23,6 +23,7 @@ y = tf.matmul(x, w1)
 loss_less = 10
 loss_more = 1
 loss = tf.reduce_mean(tf.where(tf.greater(y, y_), loss_more * (y - y_), loss_less * (y_ - y)))  # 自定义损失函数
+# AdamOptimizer也是采用的梯度下降算法，同时综合了RMSPro与Momentum两种自适应方法
 train_step = tf.train.AdamOptimizer(0.001).minimize(loss)
 
 # 通过随机数生成一个模拟数据集

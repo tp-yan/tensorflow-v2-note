@@ -5,6 +5,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 '''
  TFRecord格式可以统一不同的原始数据，TF提供的一种统一格式来存储数据。可以有效记录输入数据的更多许多信息
+ !!TF中与IO相关的操作不用在计算图中执行!!
 '''
 
 
