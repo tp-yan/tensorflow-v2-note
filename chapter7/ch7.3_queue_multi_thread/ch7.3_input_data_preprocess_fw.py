@@ -52,7 +52,6 @@ capacity = min_after_dequeue + 3 * batch_size
 image_batch, label_batch = tf.train.shuffle_batch([distorted_img, label], batch_size=batch_size, capacity=capacity,
                                                   min_after_dequeue=min_after_dequeue)
 
-#
 learning_rate = 0.01
 logit = inference(image_batch)
 loss = calc_loss(logit, label_batch)
